@@ -1,0 +1,38 @@
+# Author settings
+name: 
+title:
+address:
+email: 
+github: 
+gavatar: 
+workHistory:
+- work1:
+  company: 
+  location: 
+  title: 
+  started: 
+  duration: 
+  description: 
+educationHistory:
+- education1:
+  organization: 
+  degree: 
+  major: 
+  started: 
+  duration: 
+  description: 
+languages:
+- language1:
+  name: 
+  proficiency: 
+- language2:
+  name: 
+  proficiency: 
+programmingSkills:
+- Java:
+  name: 
+  percentage:
+- Bash:
+  name:
+  percentage:
+
