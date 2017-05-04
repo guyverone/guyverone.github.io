@@ -69,7 +69,7 @@ public class EwdMappingMongoConverter extends MappingMongoConverter {
 }
 ```
 ### 3. Configuration of Spring XML
-```java
+```xml
 <bean id="simpleMongoDbFactory" class="org.springframework.data.mongodb.core.SimpleMongoDbFactory"
 	  c:mongo-ref="mongo" c:databaseName="${mongo.database}"/>
 
