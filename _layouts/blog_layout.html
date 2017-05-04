@@ -6,12 +6,6 @@
   <body>
 
     {% include blog_header.html %}
-    <header>2
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <h2 class="post-title">
-            <a href="{{ post.url }}">  {{ post.title }} </a>
-        </h2>
-    </header>
     <main class="blogmain">
       {{ content }}
     </main>
