@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_layout
 comments: true
 title:  "SpringData Mongodb converting problem"
 excerpt: "Way to solve SpringData Mongodb problem of object converting from DBObjects to POJO."
