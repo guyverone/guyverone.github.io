@@ -9,8 +9,7 @@ excerpt_separator: "```"
 
 
 
-The reason causes this problem is lacking of some converter in spring data project, in this case a converter of converting from Date to Timestamp is missing.
-We will fix this problem by adding a DateToTimestamp converter, which just simply takes three moves, here we go:
+**The reason causes this problem is lacking of some converter in spring data project, in this case a converter of converting from Date to Timestamp is missing.We will fix this problem by adding a DateToTimestamp converter, which just simply takes three moves, here we go:
 
 ### 1. We need to build a converter like this:
 ```java
@@ -59,7 +58,8 @@ import java.util.List;
  */
 public class EwdMappingMongoConverter extends MappingMongoConverter {
 
-    public EwdMappingMongoConverter(DbRefResolver dbRefResolver, MappingContext<? extends MongoPersistentEntity<?>, MongoPersistentProperty> mappingContext, List<Converter> converters) {
+    public EwdMappingMongoConverter(DbRefResolver dbRefResolver, MappingContext<? extends MongoPersistentEntity<?>, 
+        MongoPersistentProperty> mappingContext, List<Converter> converters) {
         super(dbRefResolver, mappingContext);
         super.setCustomConversions(new CustomConversions(converters));
         super.afterPropertiesSet();
