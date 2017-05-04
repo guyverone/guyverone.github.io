@@ -1,10 +1,10 @@
 ---
 layout: post_layout
-comments: true
 title:  "SpringData Mongodb converting problem"
 excerpt: "Way to solve SpringData Mongodb problem of object converting from DBObjects to POJO."
 date:   2017-05-04 11:00:00
-mathjax: false
+pulished: true
+excerpt_separator: "```"
 ---
 
 
