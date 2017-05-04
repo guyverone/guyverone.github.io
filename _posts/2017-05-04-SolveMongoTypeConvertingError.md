@@ -10,7 +10,6 @@ excerpt_separator: "```"
 
 <p>
 The reason causes this problem is lacking of some converter in spring data project, in this case a converter of converting from Date to Timestamp is missing.
-<br/>
 We will fix this problem by adding a DateToTimestamp converter, which just simply takes three moves, here we go:
 </p>
 ### 1. We need to build a converter like this:
