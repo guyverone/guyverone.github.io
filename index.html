@@ -14,26 +14,7 @@ layout: blog_layout
         <p>
             {{ post.excerpt }}
         </p>
-        <p class="readmore">
-            <a href="{{ post.url }}">
-                more
-                <span class="glyphicon glyphicon-circle-arrow-right"></span>
-            </a>
-        </p>
     </section>
 
 </article>
 {% endfor %}
-
------------------------------------------
-
-<ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        <br>
-        {{ post.excerpt }}
-      </li>
-    {% endfor %}
-</ul>
