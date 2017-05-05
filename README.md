@@ -1,1 +1,3 @@
-# Blog, For fun.
+# Blog
+
+> For fun.
