@@ -3,8 +3,6 @@ layout: post_layout
 title:  "SpringData Mongodb converting problem"
 excerpt: "Way to solve SpringData Mongodb problem of object converting from DBObjects to POJO."
 date:   2017-05-04 11:00:00
-pulished: true
-excerpt_separator: "```"
 ---
 
 
@@ -13,6 +11,7 @@ The reason causes this problem is lack of some converters in spring data project
 We will fix this problem by adding a DateToTimestamp converter, which just simply takes three moves, here we go:
 
 ### 1. We need to build a converter like this:
+
 ```java
 package com.ewandian.thirdparty.docking.facade.converter;
 
@@ -40,7 +39,9 @@ public class DateToTimestampConverter implements Converter<Date, Timestamp> {
 
 }
 ```
+
 ### 2. A MappingMongoConverter, it's a stateless object, converters injecting through construct-arg.
+
 ```java
 package com.ewandian.thirdparty.docking.facade.converter;
 
@@ -68,7 +69,9 @@ public class EwdMappingMongoConverter extends MappingMongoConverter {
 
 }
 ```
+
 ### 3. Configuration of Spring XML
+
 ```xml
 <bean id="simpleMongoDbFactory" class="org.springframework.data.mongodb.core.SimpleMongoDbFactory"
 	  c:mongo-ref="mongo" c:databaseName="${mongo.database}"/>

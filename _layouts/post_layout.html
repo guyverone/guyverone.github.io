@@ -8,7 +8,7 @@
             <header>
                 <h1 class="article-title">{{ page.title }}</h1>
                 <p class="article-time">
-                    {{ page.date }}
+                    {{ page.date | date:"%b %d, %Y" }}
                 </p>
             </header>
             {{ content }}
