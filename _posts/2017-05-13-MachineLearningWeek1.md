@@ -141,7 +141,7 @@ For further understanding Cost Function, we need to introduce hypothesis Functio
 <br>
 Hypothesis Function is our predict function, x comes from the given data such as the size of the house, we need to find out &theta; to make this function work.
 <br>
-<i>Cost Function formula</i>: $J(\theta) = \frac{1}{2m}\sum\limits_{i-0}^m(h_\theta(x) - y)^2$
+<i>Cost Function formula</i>: $J(\theta) = \frac{1}{2m}\sum\limits_{i=0}^m(h_\theta(x) - y)^2$
 <br>
 **Relationship between hypothesis function and cost function**
 <br>
@@ -237,7 +237,7 @@ Gradient descent would have a local optima problem. But for gradient descent for
 <br>
 
 <b>
-Note: All materials come from Coursera Andrew Ng's Machine Learning.
+Note: All materials come from Coursera Andrew Ng's Machine Learning Class.
 </b>
 <br>
 <b>
