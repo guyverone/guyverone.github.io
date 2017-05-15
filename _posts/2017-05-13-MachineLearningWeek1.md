@@ -132,7 +132,7 @@ Most situations, X = Y = $\mathbb{R}$.
 <br>
 
 
-### Cost Function With One Parameter In Mathematica###
+### Cost Function With One Parameter###
 We do a simple way to predict the housing price, that is drawing a straight line to pass through all the $(x_i,y_i)$ points and makes them as close as possible by using Cost Function to make sure we are on the right direction.
 <br>
 For further understanding Cost Function, we need to introduce hypothesis Function first. hypothesis Function is our predict function, its a linear equation, which draws a straight line.
@@ -153,7 +153,7 @@ When cost function $J(\theta)$ gets its minimal value, then the &theta; is the e
 </div>
 <br>
 
-### Cost Function With Two Parameters In Mathematica###
+### Cost Function With Two Parameters###
 <br>
 <i>Hypothesis Function formula</i>: $h_\theta(x) = \theta_0 + \theta_1x$
 <br>
@@ -179,7 +179,7 @@ For example, These three green points found on the green line below have the sam
 </div>
 <br>
 
-### Gradient Descent With One Parameter In Mathematica ###
+### Gradient Descent With One Parameter###
 Gradient descent is a way that cost function $J(\theta)$ used to get to its minimal value by steps. 
 <br>
 
@@ -206,7 +206,7 @@ Picking that value of $\alpha$ is a technical skill. $\alpha$ is called learning
 </div>
 <br>
 
-### Gradient Descent With Two Parameter In Mathematica ###
+### Gradient Descent With Two Parameter###
 <i>Gradient descent formula</i>: repeat $\theta_j = \theta_j - \alpha\frac{\partial}{\partial\theta}J(\theta_0,\theta_1)$
 <br>
 
