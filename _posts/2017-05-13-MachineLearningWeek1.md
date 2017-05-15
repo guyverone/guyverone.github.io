@@ -1,7 +1,7 @@
 ---
 layout: post_layout
 title:  "Coursera Machine Learning Week 1: Machine Learning Introduction"
-excerpt: "What is machine learning? What it can do?"
+excerpt: "What is machine learning? What can it do?"
 date:   2017-05-13 09:00:00
 mathjax: true
 --- 
