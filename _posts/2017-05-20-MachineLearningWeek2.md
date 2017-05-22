@@ -2,7 +2,7 @@
 layout: post_layout
 title:  "Coursera Machine Learning Week 2: Installing Octave, Feature Scaling, Normal Equation"
 excerpt: "Using Octave to compute. Regularing feature variable range. Another method to substitute gradient descent."
-date:   2017-05-15 13:00:00
+date:   2017-05-20 13:00:00
 mathjax: true
 ---  
 
