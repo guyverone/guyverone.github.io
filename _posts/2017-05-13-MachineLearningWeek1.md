@@ -15,7 +15,7 @@ After machine first beats mankind in 1997, again, artificial intelligence rises 
 </div>
 <br>
 
-As an important field of Computer Science, Machine Learning nowadays become more applicable than decades ago because of enormous amount of data which generated every day by the internet or electronic devices and the powerful compute ability now we have. There are many areas have been targeted by machine learning: Data mining, Auto vechiles, Recommemdations, Healthcare, Gen engine, Market analyzing, etc. And it is changing our live right now.
+As an important field of Computer Science, Machine Learning nowadays become more applicable than decades ago because of enormous amount of data which generated every day by the internet or electronic devices and the powerful computational ability now we have. There are many areas have been targeted by machine learning: Data mining, Auto vechiles, Recommemdations, Healthcare, Gen engine, Market analyzing, etc. And it is changing our live right now.
 <br>
 
 <div class="imgcap">
@@ -183,11 +183,6 @@ For example, These three green points found on the green line below have the sam
 Gradient descent is a way that cost function $J(\theta)$ used to get to its minimal value by steps. 
 <br>
 
-<div class="imgcap">
-<img src="/assets/pics/ml_week_one/gradientdescent_optima.jpg">
-</div>
-<br>
-
 <i>Gradient descent formula</i>: repeat $\theta = \theta - \alpha\frac{\partial}{\partial\theta}J(\theta)$
 <br>
 $\frac{\partial}{\partial\theta}J(\theta)$ is the slope of gradient, it could be positive or negative, but eventually it becomes 0 and $\theta$ would be stabilized on one value.
@@ -206,8 +201,13 @@ Picking that value of $\alpha$ is a technical skill. $\alpha$ is called learning
 </div>
 <br>
 
-### Gradient Descent With Two Parameter###
+### Gradient Descent With Two Parameters###
 <i>Gradient descent formula</i>: repeat $\theta_j = \theta_j - \alpha\frac{\partial}{\partial\theta}J(\theta_0,\theta_1)$
+<br>
+
+<div class="imgcap">
+<img src="/assets/pics/ml_week_one/gradientdescent_optima.jpg">
+</div>
 <br>
 
 ### Gradient Descent For linear Regression ###
@@ -247,15 +247,3 @@ Coursera
 <br>
 Andrew Ng
 </b>
-
-
-
-
-
-
-
-
-
-
-
-
